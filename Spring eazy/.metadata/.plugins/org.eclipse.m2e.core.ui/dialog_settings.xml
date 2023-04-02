@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\pract\Spring eazy\Demo8"/>
+			<item value="F:\pract\Spring eazy\Demo7\src\main\java\com\example\Demo3\model"/>
+			<item value="F:\pract\Spring eazy\Demo5"/>
+			<item value="F:\pract\Spring eazy\Demo3"/>
+			<item value="F:\pract\Spring eazy\Demo1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.example.qulifier"/>
+			<item value="com.example.Demo12Transaction"/>
+			<item value="com.example.Demo10"/>
+			<item value="com.example.Demo8"/>
+			<item value="com.example.Demo6"/>
+			<item value="com.example.Demo5"/>
+			<item value="com.Example.Demo4"/>
+			<item value="com.example.Demo3"/>
+			<item value="com.example.Demo2"/>
+		</list>
+		<list key="name">
+			<item value="Demo_Qulifier"/>
+			<item value="Demo12Transaction"/>
+			<item value="Demo10"/>
+			<item value="Demo8"/>
+			<item value="Demo6"/>
+			<item value="Demo5"/>
+			<item value="Demo4"/>
+			<item value="Demo3"/>
+			<item value="Demo2"/>
+		</list>
+		<list key="artifactId">
+			<item value="Demo_Qulifier"/>
+			<item value="Demo12Transaction"/>
+			<item value="Demo10"/>
+			<item value="Demo8"/>
+			<item value="Demo6"/>
+			<item value="Demo5"/>
+			<item value="Demo4"/>
+			<item value="Demo3"/>
+			<item value="Demo2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

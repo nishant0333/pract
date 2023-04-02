@@ -1,0 +1,8 @@
+package com.jtcindia.springboot;
+
+
+
+@Repositry
+public class CustomerDAOImpl implements CustomerDAO{
+public void addCustomers(Customer cust);
+}

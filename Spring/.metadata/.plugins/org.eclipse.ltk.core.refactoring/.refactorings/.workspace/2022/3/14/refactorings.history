@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;IOC3(Autowiring by name)&apos; to &apos;IOC3(Autowire by name)&apos;&#x0D;&#x0A;- Original element: &apos;IOC3(Autowiring by name)&apos;&#x0D;&#x0A;- Renamed element: &apos;IOC3(Autowiring by name)&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;IOC3(Autowiring by name)&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=IOC3\(Autowiring by name)" name="IOC3(Autowire by name)" references="true" stamp="1648626251377" version="1.0"/>
+</session>

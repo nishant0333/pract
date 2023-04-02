@@ -1,0 +1,12 @@
+package com.lang;
+class Aa{
+	String str1=new String("abc");
+	String str2=new String("abc");
+}
+public class Hashcode {
+	public static void main(String[] args) {
+		Aa aa=new Aa();
+	System.out.println(aa.str1==aa.str2);
+	}
+
+}

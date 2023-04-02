@@ -1,0 +1,21 @@
+package com.jtc.C1;
+
+public class GraterThree1 {
+
+	public static void main(String[] args) {
+	int a=100,b=10,c=5;
+	if(a>b && a>c) {
+		System.out.println("a is Grater");
+	}
+	else if (b>a && b>c) {
+		System.out.println("b is Grater");
+		
+	}
+	else
+	{
+		System.out.println("c is Grater");
+	}
+
+	}
+
+}

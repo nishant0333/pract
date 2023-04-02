@@ -1,0 +1,30 @@
+
+May 30, 2022 15:53:33.358 NEW SESSION
+May 30, 2022 15:53:33.359 [Parent 8204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+May 30, 2022 16:14:08.434 
+May 30, 2022 16:14:08.908 ###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundIDBDatabase::Msg_Invalidate) Channel error: cannot send/recv
+May 30, 2022 16:14:08.921 
+May 30, 2022 16:14:08.931 
+May 30, 2022 16:14:08.939 ###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+May 30, 2022 16:14:08.948 
+May 30, 2022 16:14:08.955 
+May 30, 2022 16:14:08.962 ###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundIDBDatabase::Msg_Invalidate) Channel error: cannot send/recv
+May 30, 2022 16:14:08.969 
+May 30, 2022 16:14:08.976 
+May 30, 2022 16:14:08.983 ###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+May 30, 2022 16:14:08.990 
+May 30, 2022 16:14:08.997 
+May 30, 2022 16:14:09.04 ###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundIDBDatabase::Msg_Invalidate) Channel error: cannot send/recv
+May 30, 2022 16:14:09.11 
+May 30, 2022 16:14:09.18 
+May 30, 2022 16:14:09.26 ###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+May 30, 2022 16:14:09.33 
+May 30, 2022 16:14:09.452 [Parent 8204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+May 30, 2022 16:14:09.473 [Parent 8204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+May 30, 2022 16:14:09.482 [Parent 8204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+May 30, 2022 16:14:09.491 [Parent 8204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+May 31, 2022 11:07:06.442 NEW SESSION
+May 31, 2022 11:07:06.442 [GFX1-]: shader-cache: Timed out before finishing loads
+May 31, 2022 11:07:06.718 [2022-05-31T05:37:06Z ERROR webrender_bindings::program_cache] shader-cache: Timed out before finishing loads
+May 31, 2022 11:21:31.780 [Parent 6996, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

@@ -1,0 +1,22 @@
+package Streams.flateMap;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class ConcateString {
+
+	public static void main(String[] args) {
+		List<String> l1 = Arrays.asList("ram", "sita", "mohan");
+		List<String> l2 = Arrays.asList("pitar", "huntar", "pantar");
+
+		Stream<String> str1 = l1.stream();
+		Stream<String> str2 = l2.stream();
+		List<String> fl = Stream.concat(str1, str2).collect(Collectors.toList());
+		System.out.println(fl);
+		// for(String) {}
+
+	}
+
+}

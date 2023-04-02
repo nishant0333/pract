@@ -1,0 +1,17 @@
+#Database Properties
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/mycustomers
+spring.datasource.username=root
+spring.datasource.password=ojha
+
+#Hikari properties
+spring.datasource.hikari.connection Timeout=2000
+spring.datasource.hikari.maximumPoolSize=5
+#Dbcp2 Properties
+spring.datasource.dbcp2.initialSize=5
+spring.datasource.dbcp2.max-active=20
+spring.datasource.dbcp2.pool-prepare-statementys=true
+
+#Log Properties
+logging.lavel.root=INFO
+logging.pattern.console=%-5level %logger{36}-%msg%n

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example_24"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example_23"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example_37"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example_19"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example_22"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example_21"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example_20"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example_10"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example6"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example5"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example4"/>
+			<item value="F:\EazyBytes Spring Boot code\spring-main\example3"/>
+			<item value="F:\git\spring\example_19"/>
+			<item value="F:\git\spring\example_28"/>
+			<item value="F:\pract\SpringBYTE\example_18"/>
+			<item value="C:\Users\Neha\git\spring"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+</section>

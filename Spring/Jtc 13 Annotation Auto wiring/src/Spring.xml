@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+xmlns:su="http://www.springframework.org/schema/p"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context.xsd">
+
+   <context:annotation-config/>
+
+
+  <bean  id = "ao" class = "com.spring.beans.A" su:a="10" su:msg=" Annotation in p-manespace" />
+
+<!-- <bean id="ao" class="com.spring.beans.A"> -->
+<!-- <property name="a" value="22"/> -->
+<!-- <property name="msg" value="setter A"/> -->
+<!-- </bean> -->
+
+<bean id="bo" class="com.spring.beans.B" >
+<property name="b" value="123"/>
+<property name="str" value="setter B"/>
+</bean>
+
+<bean id="hello" class="com.spring.beans.Hello" />
+
+</beans>

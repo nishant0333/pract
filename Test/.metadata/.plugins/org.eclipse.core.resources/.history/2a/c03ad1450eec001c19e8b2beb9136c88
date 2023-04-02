@@ -1,0 +1,18 @@
+package com.lang;
+
+class Equal {
+	int a;
+
+	public Equal(int a) {
+		// TODO Auto-generated constructor stub
+		this.a = a;
+	}
+
+	public boolean equals(Object object) {
+		return false;
+	}
+}
+public class Equal{
+	
+	
+}

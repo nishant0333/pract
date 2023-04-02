@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MVC1/src/main/webapp/WEB-INF/Jtcindia-servlet.xml&apos; to &apos;jtcindia-servlet.xml&apos;" description="Rename resource &apos;Jtcindia-servlet.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/Jtcindia-servlet.xml" name="jtcindia-servlet.xml" stamp="1653806712434" updateReferences="true"/>
+</session>

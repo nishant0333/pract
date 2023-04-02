@@ -1,0 +1,13 @@
+package com.jtcindia.springboot;
+
+import java.util.List;
+import java.util.Map;
+
+public interface CustomerDAO {
+	public void addCustomer(Customer cust);
+	public void addCustomer(Map<String,Object>map);
+	public List<Customer>getAllCustomers();
+	public List<Customer>getAllCustomersByCity(String city);
+	public String getCustomersEmailByPhone(int phone);
+
+}

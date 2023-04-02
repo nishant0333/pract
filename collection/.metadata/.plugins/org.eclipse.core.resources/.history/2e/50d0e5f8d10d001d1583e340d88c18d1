@@ -1,0 +1,19 @@
+package Streams.flateMap;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class AnyMatch_AllMatch {
+
+	public static void main(String[] args) {
+		Set<String> f = new HashSet<String>();
+		f.add("one apple");
+		f.add("one mango");
+		f.add("two apple");
+		f.add("two guavas");
+		boolean r = f.stream().anyMatch(value -> {
+			return value.startsWith("one");
+		});
+	}
+
+}

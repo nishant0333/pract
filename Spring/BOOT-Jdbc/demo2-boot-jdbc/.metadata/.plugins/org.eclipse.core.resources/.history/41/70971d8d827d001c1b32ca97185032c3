@@ -1,0 +1,12 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jtcindia.springboot</groupId>
+  <artifactId>demo2-boot-jdbc</artifactId>
+  <version>1.0</version>
+  <name>demo2-boot-jdbc</name>
+  <description>This is My First Spring Boot Application</description>
+<url>//www.jlcindia.com</url>
+<parent>
+<groupId>org.springframework.boot</groupId>
+</parent>
+</project>

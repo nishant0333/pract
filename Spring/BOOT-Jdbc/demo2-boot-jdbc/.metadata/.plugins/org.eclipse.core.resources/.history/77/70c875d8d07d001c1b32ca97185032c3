@@ -1,0 +1,5 @@
+package com.jtcindia.springboot;
+
+public class MyBootApplication {
+
+}

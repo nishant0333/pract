@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="F:\practice program\java techie microservice\spring-cloud-gatway-hystrix-master\spring-cloud-gateway-hystrix-master\cloud-gateway"/>
+			<item value="F:\practice program\java techie microservice\spring-cloud-gatway-hystrix-master\spring-cloud-gateway-hystrix-master\hystrix-dashboard"/>
+			<item value="F:\practice program\java techie microservice\spring-cloud-gatway-hystrix-master\spring-cloud-gateway-hystrix-master\order-service"/>
+			<item value="F:\practice program\java techie microservice\spring-cloud-gatway-hystrix-master\spring-cloud-gateway-hystrix-master\payment-service"/>
+			<item value="F:\practice program\java techie microservice\spring-cloud-gatway-hystrix-master\spring-cloud-gateway-hystrix-master\service-registry"/>
+			<item value="F:\practice program\demo"/>
+			<item value="F:\spring boot\spring-boot-crud-operation"/>
+		</list>
+	</section>
+</section>

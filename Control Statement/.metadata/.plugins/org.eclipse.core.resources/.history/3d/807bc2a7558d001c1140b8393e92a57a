@@ -1,0 +1,16 @@
+package com.jtc.C1;
+import java.util.Scanner;
+public class EvenOrOdd {
+public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	int no = s.nextInt();
+	if(no%2 == 0) {
+		System.out.println("no is even");
+	}
+	else {
+		System.out.println("no is odd");
+		
+	}
+	
+}
+}

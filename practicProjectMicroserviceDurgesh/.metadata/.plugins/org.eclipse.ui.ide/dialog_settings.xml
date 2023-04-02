@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="F:\practice durgesh microservice project\ConfigServer"/>
+			<item value="F:\practice durgesh microservice project\ApiGatway"/>
+			<item value="F:\practice durgesh microservice project\TestService1"/>
+			<item value="F:\practice durgesh microservice project\TestService"/>
+			<item value="F:\practice durgesh microservice project\ServiceRegistry"/>
+			<item value="F:\practice durgesh microservice project\RatingService"/>
+			<item value="F:\practice durgesh microservice project\HotelService"/>
+			<item value="F:\practice durgesh microservice project\UserService"/>
+		</list>
+	</section>
+</section>

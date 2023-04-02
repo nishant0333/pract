@@ -1,0 +1,21 @@
+package com.jtc.thread;
+
+class Consumer extends Thread{
+	Company c;
+	Consumer(Company c)
+	{
+		this.c=c;
+	}
+
+	public void run()
+	{
+		while((true)&&(i<10))
+		{
+		try{
+			this.c.consume_item();
+			Thread.sleep(2000);
+			}
+			catch(Exception e){}
+		}
+	}
+}

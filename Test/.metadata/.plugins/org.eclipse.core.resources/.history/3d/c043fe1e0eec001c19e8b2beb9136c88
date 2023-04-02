@@ -1,0 +1,18 @@
+package com.lang;
+
+class DemoEquels {
+	int a;
+
+	public DemoEquels(int a) {
+		// TODO Auto-generated constructor stub
+		this.a = a;
+	}
+
+	public boolean equals(Object object) {
+		return false;
+	}
+}
+public class Equal{
+	
+	
+}

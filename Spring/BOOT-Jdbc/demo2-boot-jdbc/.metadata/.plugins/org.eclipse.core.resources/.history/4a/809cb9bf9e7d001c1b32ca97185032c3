@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jtcindia.springboot</groupId>
+  <artifactId>demo3-boot-jdbc</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>demo3-boot-jdbc</name>
+  <description>This is My First SpringBoot JDBC</description>
+<url>http://www.jlcindia.com</url>
+<parent>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-parent</artifactId>
+<version>2.3.3.RELEASE</version>
+</parent>
+<dependencies>
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-jdbc</artifactId>
+<exclusions>
+<exclusion>
+<groupId>com.zaxxer</groupId>
+</exclusion>
+</exclusions>
+</dependency>
+</dependencies>
+</project>

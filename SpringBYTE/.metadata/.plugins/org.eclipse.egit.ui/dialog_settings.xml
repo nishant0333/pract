@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\Neha\git\spring\.git"/>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/eazybytes/spring"/>
+		<item value="https://github.com/eazybytes/spring/tree/main/example1.git"/>
+		<item value="https://github.com/eazybytes/spring/tree/main/example1"/>
+		<item value="http://github.com/github.com/eazybytes/spring/tree/main/example1.git"/>
+		<item value="http://github.com/github.com/eazybytes/spring/tree/main/example1"/>
+		<item value="file://C:\Users\Neha\git\spring\example2"/>
+		<item value="https://github.com/eazybytes/spring/tree/main/example2"/>
+		<item value="https://github.com/eazybytes/spring/tree/main"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>

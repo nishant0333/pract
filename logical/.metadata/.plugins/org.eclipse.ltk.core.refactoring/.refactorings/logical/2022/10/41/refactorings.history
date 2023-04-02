@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.Stream.sortingOnTwoConditiopn&apos; to &apos;sortingOnTwoCondition&apos;&#x0D;&#x0A;- Original project: &apos;logical&apos;&#x0D;&#x0A;- Original element: &apos;com.Stream.sortingOnTwoConditiopn&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Stream.sortingOnTwoCondition&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;sortingOnTwoConditiopn&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.Stream{sortingOnTwoConditiopn.java[sortingOnTwoConditiopn" matchStrategy="1" name="sortingOnTwoCondition" qualified="false" references="true" similarDeclarations="false" stamp="1665065254551" textual="false" version="1.0"/>
+</session>

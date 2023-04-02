@@ -1,0 +1,41 @@
+package com.test;
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Optional;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+
+ 
+
+public class test  {
+	public static void main(String[] args) {
+		
+		int number=123;
+		int reverseNumber=0;
+		
+		while (number>0) {
+			int remender=number%10;
+			reverseNumber=reverseNumber*10+remender;
+			number=number/10;
+		}
+		
+			System.out.println(reverseNumber);
+		
+	}
+}
+
+

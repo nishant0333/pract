@@ -1,0 +1,10 @@
+package com.satish.ojha;
+
+public class Lab1 {
+public static void main(String[] args) {
+	int a=99;
+	if(a==99);
+	System.out.println("value is 99");
+	System.out.println("hello guys");
+}
+}

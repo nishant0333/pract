@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean  id = "aobj" class = "com.spring.beans.A" >
+       <constructor-arg value="10"/>
+       <constructor-arg value="Bean of A-class"/>
+</bean>
+
+<bean  id = "a2" class = "com.spring.beans.A" >
+       <constructor-arg value="12"/>
+       <constructor-arg value="Bean of A-class"/>
+</bean>
+
+
+<bean id="bobj" class="com.spring.beans.B" >
+       <constructor-arg value="11"/>
+       <constructor-arg value="Bean of B-class"/>
+</bean>
+<bean id="b2" class="com.spring.beans.B" >
+       <constructor-arg value="14"/>
+       <constructor-arg value="Bean of B1-class"/>
+</bean>
+
+<bean id="hello" class="com.spring.beans.Hello" autowire="constructor">
+      
+</bean>
+
+</beans>

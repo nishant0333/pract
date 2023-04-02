@@ -1,0 +1,11 @@
+package PrintEvenOddThread;
+
+public class PrintEvenOdd {
+
+	int start;
+	int max;
+	
+	
+	public PrintEvenOddThread
+	
+}

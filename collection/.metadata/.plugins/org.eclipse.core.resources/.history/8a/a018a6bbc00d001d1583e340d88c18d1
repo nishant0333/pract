@@ -1,0 +1,55 @@
+package Streams.flateMap;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+
+class Employee {
+	String name;
+	int salary;
+
+	public Employee(String name, int salary) {
+		this.name = name;
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", salary=" + salary + "]";
+	}
+
+}
+
+public class FindHighest {
+	static int salary2 = 0;
+	public static void main(String[] args) {
+	
+		List<Employee> l1 = Arrays.asList(new Employee("pankaj", 20), new Employee("Amresh", 30),
+				new Employee("Abhinav", 31));
+
+		List<Employee> l2 = Arrays.asList(new Employee("sita", 21), new Employee("gita", 31), new Employee("nita", 32));
+
+		List<List<Employee>> le = Arrays.asList(l1, l2);
+		List<Employee> ln = le.stream().flatMap(x -> x.stream()).collect(Collectors.toList());
+
+		List<Integer> salary1 = le.stream().flatMap(x -> x.stream()).map(e -> e.salary)
+				.sorted(Comparator.reverseOrder()).limit(1).collect(Collectors.toList());
+
+		for (int i : salary1) {
+			salary2 = i;
+		}
+
+//		for (Employee e2 : ln) {
+//			System.out.println(e2);
+//			if (e2.salary == salary2) {
+//				System.out.println("-------------------------------");
+//				System.out.println(e2);
+//			}
+//		}
+
+		System.out.println(salary2);
+		 List<Employee> ename = ln.stream().filter(a -> a.salary==salary2).collect(Collectors.toList());
+	}
+
+}

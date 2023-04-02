@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+      "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+      
+      <hibernate-mapping package="com.hibernate.jtc">
+      
+      <class name ="Customer" table="customerHQL">
+      <id name="cid" column="cid" type="int">
+      <generator class="increment"></generator>
+      </id>
+      
+      
+      <property name="cname" type="string" column="cname"></property>
+      <property name="email" type="string" column="email"></property>
+      <property name="city" type="string" column="city"></property>
+      <property name="cardBal" type="double" column="cardBal"></property>
+      <property name="cardType" type="string" column="cardType"></property>
+      <property name="cardNo" type="int" column="cardNo"></property>
+      <property name="status" type="string" column="status"></property>
+      
+    
+      </class>
+      </hibernate-mapping>

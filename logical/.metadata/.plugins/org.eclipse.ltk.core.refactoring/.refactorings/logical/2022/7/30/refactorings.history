@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.logical.PrimeRange&apos; to &apos;primeMethod&apos;&#x0D;&#x0A;- Original project: &apos;logical&apos;&#x0D;&#x0A;- Original element: &apos;com.logical.PrimeRange&apos;&#x0D;&#x0A;- Renamed element: &apos;com.logical.primeMethod&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PrimeRange&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.logical{PrimeRange.java[PrimeRange" matchStrategy="1" name="primeMethod" qualified="false" references="true" similarDeclarations="false" stamp="1658494863577" textual="false" version="1.0"/>
+</session>

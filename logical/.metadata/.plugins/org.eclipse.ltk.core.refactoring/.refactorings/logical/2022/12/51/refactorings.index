@@ -1,0 +1,6 @@
+1670817336539	Rename type 'BuilderDemo'
+1670821723300	Rename package 'singaltonNew'
+1670929352268	Encapsulate field 'city'
+1670929360254	Encapsulate field 'state'
+1670929476798	Encapsulate field 'name'
+1670929482617	Encapsulate field 'address'

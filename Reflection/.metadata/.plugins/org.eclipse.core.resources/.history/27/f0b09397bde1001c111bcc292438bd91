@@ -1,0 +1,13 @@
+package com.reflection;
+import java.lang.reflect.*;
+public abstract class Employee implements java.io.Serializable, Cloneable {
+
+}
+ class Test{
+	 public static void main(String... arg) 
+	 {
+		class c=class.forName("Employee"); 
+		 
+	 }
+	 
+ }

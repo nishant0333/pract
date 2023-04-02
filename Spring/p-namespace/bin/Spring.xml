@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+ xmlns:su="http://www.springframework.org/schema/p"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean  id = "ao" class = "com.spring.beans.A" su:a="111" su:msg=" A in p-manespace" />
+    
+
+
+<bean id="b1" class="com.spring.beans.B" >
+       <constructor-arg value="11"/>
+       <constructor-arg value="string B"/>
+</bean>
+
+<bean id="hello" class="com.spring.beans.Hello" autowire="byType">
+      
+</bean>
+
+</beans>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean id="add" class="com.spring.beans.Address">
+   <constructor-arg value="Noida"></constructor-arg>
+   <constructor-arg value="sector2"></constructor-arg>
+   <constructor-arg value="UP"></constructor-arg>
+  </bean>
+  <bean id="acc1" class="com.spring.beans.Account">
+  <property name="accno" value="11"></property>
+ <property name="atype" value="SA"></property>
+ <property name="bal" value="10000.0"></property>
+  </bean> 
+  <bean id="acc2" class="com.spring.beans.Account">
+<property name="accno" value="12"></property>
+<property name="atype" value="SA"></property>
+<property name="bal" value="20000.0"></property>
+</bean>
+<bean id="acc3" class="com.spring.beans.Account">
+<property name="accno" value="13"></property>
+<property name="atype" value="CA"></property>
+<property name="bal" value="350000.0"></property>
+</bean>
+<bean id="cust" class="com.spring.beans.Customer">
+<constructor-arg value="101"></constructor-arg>
+<constructor-arg value="Som"></constructor-arg>
+<constructor-arg value="som@jtc"></constructor-arg>
+<constructor-arg value="9999"></constructor-arg>
+<property name="emails">
+<list>
+<value>aa@jtc</value>
+<value>bb@jtc</value>
+<value>cc@jtc</value>
+</list>
+</property>
+<property name="phones">
+<set>
+<value>111</value>
+<value>222</value>
+<value>333</value>
+</set>
+</property>
+<property name="refs">
+<map>
+<entry key="AA" value="11"></entry>
+<entry key="BB" value="22"></entry>
+<entry key="cc" value="33"></entry>
+</map>
+</property>
+<property name="myprops">
+<props>
+<prop key="AA">11</prop>
+<prop key="BB">22</prop>
+<prop key="CC">33</prop>
+</props>
+</property>
+<property name="address" ref="add"></property>
+<property name="accounts">
+<list>
+<ref bean="acc1"/>
+<ref bean="acc2"/>
+<ref bean="acc3"/>
+</list>
+</property>
+</bean>
+</beans>
